@@ -1,0 +1,246 @@
+2024-12-24 15:53:33 [main] INFO  c.e.W.WebsocketDemoApplication - Starting WebsocketDemoApplication using Java 19.0.1 with PID 16772 (F:\springbootApplication\WebsocketDemo\WebsocketDemo\target\classes started by lenovo in F:\springbootApplication\WebsocketDemo)
+2024-12-24 15:53:33 [main] INFO  c.e.W.WebsocketDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-24 15:53:35 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-24 15:53:35 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-24 15:53:35 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-24 15:53:35 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-24 15:53:35 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1930 ms
+2024-12-24 15:53:36 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 15:53:36 [main] INFO  c.e.W.WebsocketDemoApplication - Started WebsocketDemoApplication in 3.884 seconds (process running for 5.859)
+2024-12-24 15:54:28 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-24 15:54:28 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-24 15:54:28 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-24 15:54:28 [http-nio-8080-exec-1] INFO  c.e.W.handler.WebSocketHandler - Connection established: Session ID = 0de9bd03-e781-7663-f9f0-f3626cf88861
+2024-12-24 15:54:34 [http-nio-8080-exec-3] INFO  c.e.W.handler.WebSocketHandler - Message received from Session ID = 0de9bd03-e781-7663-f9f0-f3626cf88861: Payload = Hello websocket !
+2024-12-24 15:54:40 [http-nio-8080-exec-2] INFO  c.e.W.handler.WebSocketHandler - Message received from Session ID = 0de9bd03-e781-7663-f9f0-f3626cf88861: Payload = Hello websocket !
+2024-12-24 15:54:45 [http-nio-8080-exec-4] INFO  c.e.W.handler.WebSocketHandler - Connection closed: Session ID = 0de9bd03-e781-7663-f9f0-f3626cf88861, Close Status = CloseStatus[code=1000, reason=null]
+2024-12-24 15:56:36 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-24 15:56:36 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-24 15:56:55 [main] INFO  c.e.W.WebsocketDemoApplication - Starting WebsocketDemoApplication using Java 19.0.1 with PID 9180 (F:\springbootApplication\WebsocketDemo\WebsocketDemo\target\classes started by lenovo in F:\springbootApplication\WebsocketDemo)
+2024-12-24 15:56:55 [main] INFO  c.e.W.WebsocketDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-24 15:56:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-24 15:56:57 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-24 15:56:57 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-24 15:56:57 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-24 15:56:57 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1875 ms
+2024-12-24 15:56:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 15:56:58 [main] INFO  c.e.W.WebsocketDemoApplication - Started WebsocketDemoApplication in 3.602 seconds (process running for 4.756)
+2024-12-24 15:57:55 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-24 15:57:55 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-24 15:57:55 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-12-24 15:57:55 [http-nio-8080-exec-2] INFO  c.e.W.handler.WebSocketHandler - Connection established: Session ID = 59f34cb1-d7e4-161e-8f61-81abb3820c3e
+2024-12-24 15:58:39 [http-nio-8080-exec-3] INFO  c.e.W.handler.WebSocketHandler - Text Message received from Session ID = 59f34cb1-d7e4-161e-8f61-81abb3820c3e: Payload = Hello websocket !
+2024-12-24 15:59:51 [http-nio-8080-exec-1] INFO  c.e.W.handler.WebSocketHandler - Text Message received from Session ID = 59f34cb1-d7e4-161e-8f61-81abb3820c3e: Payload = Hello websocket !
+How are you
+2024-12-24 16:00:30 [http-nio-8080-exec-4] INFO  c.e.W.handler.WebSocketHandler - Text Message received from Session ID = 59f34cb1-d7e4-161e-8f61-81abb3820c3e: Payload = Hello websocket !
+How are you
+2024-12-24 16:00:35 [http-nio-8080-exec-5] INFO  c.e.W.handler.WebSocketHandler - Connection closed: Session ID = 59f34cb1-d7e4-161e-8f61-81abb3820c3e, Close Status = CloseStatus[code=1000, reason=null]
+2024-12-24 16:12:18 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-24 16:12:18 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-24 16:12:36 [main] INFO  c.e.W.WebsocketDemoApplication - Starting WebsocketDemoApplication using Java 19.0.1 with PID 14424 (F:\springbootApplication\WebsocketDemo\WebsocketDemo\target\classes started by lenovo in F:\springbootApplication\WebsocketDemo)
+2024-12-24 16:12:36 [main] INFO  c.e.W.WebsocketDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-24 16:12:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-24 16:12:38 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-24 16:12:38 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-24 16:12:38 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-24 16:12:38 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1761 ms
+2024-12-24 16:12:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 16:12:39 [main] INFO  c.e.W.WebsocketDemoApplication - Started WebsocketDemoApplication in 3.503 seconds (process running for 4.809)
+2024-12-24 16:13:03 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-24 16:13:03 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-24 16:13:03 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-12-24 16:13:03 [http-nio-8080-exec-1] INFO  c.e.W.handler.WebSocketHandler - Connection established: Session ID = 81b67c8d-5e1a-cbca-ad31-fc02221d6372
+2024-12-24 16:13:10 [http-nio-8080-exec-2] INFO  c.e.W.handler.WebSocketHandler - Text Message received from Session ID = 81b67c8d-5e1a-cbca-ad31-fc02221d6372: Payload = Hello websocket !
+
+2024-12-24 16:20:52 [http-nio-8080-exec-3] INFO  c.e.W.handler.WebSocketHandler - Text Message received from Session ID = 81b67c8d-5e1a-cbca-ad31-fc02221d6372: Payload = close websocket !
+
+2024-12-24 16:20:58 [http-nio-8080-exec-4] INFO  c.e.W.handler.WebSocketHandler - Connection closed: Session ID = 81b67c8d-5e1a-cbca-ad31-fc02221d6372, Close Status = CloseStatus[code=1000, reason=null], Reason = No specific reason provided
+2024-12-24 16:22:31 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-24 16:22:31 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-24 16:22:50 [main] INFO  c.e.W.WebsocketDemoApplication - Starting WebsocketDemoApplication using Java 19.0.1 with PID 3220 (F:\springbootApplication\WebsocketDemo\WebsocketDemo\target\classes started by lenovo in F:\springbootApplication\WebsocketDemo)
+2024-12-24 16:22:50 [main] INFO  c.e.W.WebsocketDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-24 16:22:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-24 16:22:52 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-24 16:22:52 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-24 16:22:52 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-24 16:22:52 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1907 ms
+2024-12-24 16:22:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 16:22:53 [main] INFO  c.e.W.WebsocketDemoApplication - Started WebsocketDemoApplication in 3.671 seconds (process running for 4.958)
+2024-12-24 16:23:42 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-24 16:23:42 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-24 16:23:42 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-24 16:23:42 [http-nio-8080-exec-1] INFO  c.e.W.handler.WebSocketHandler - Connection established: Session ID = a3fe917d-c209-3901-9888-267e81eeacef
+2024-12-24 16:23:50 [http-nio-8080-exec-2] INFO  c.e.W.handler.WebSocketHandler - Text Message received from Session ID = a3fe917d-c209-3901-9888-267e81eeacef: Payload = Hello websocket !
+
+2024-12-24 16:26:03 [http-nio-8080-exec-3] INFO  c.e.W.handler.WebSocketHandler - Connection closed: Session ID = a3fe917d-c209-3901-9888-267e81eeacef, Close Status = CloseStatus[code=1000, reason=null], Reason = No specific reason provided
+2024-12-24 16:32:12 [http-nio-8080-exec-6] INFO  c.e.W.handler.WebSocketHandler - Connection established: Session ID = e264c261-6f44-df01-72d7-5c50a8e484cd
+2024-12-24 16:32:55 [http-nio-8080-exec-5] INFO  c.e.W.handler.WebSocketHandler - Text Message received from Session ID = e264c261-6f44-df01-72d7-5c50a8e484cd: Payload = Hello websocket !
+disconnect
+2024-12-24 16:32:59 [http-nio-8080-exec-4] INFO  c.e.W.handler.WebSocketHandler - Connection closed: Session ID = e264c261-6f44-df01-72d7-5c50a8e484cd, Close Status = CloseStatus[code=1000, reason=null], Reason = No specific reason provided
+2024-12-24 16:33:43 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-24 16:33:43 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-24 16:35:19 [main] INFO  c.e.W.WebsocketDemoApplication - Starting WebsocketDemoApplication using Java 19.0.1 with PID 8396 (F:\springbootApplication\WebsocketDemo\WebsocketDemo\target\classes started by lenovo in F:\springbootApplication\WebsocketDemo)
+2024-12-24 16:35:19 [main] INFO  c.e.W.WebsocketDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-24 16:35:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-24 16:35:21 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-24 16:35:21 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-24 16:35:21 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-24 16:35:21 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1903 ms
+2024-12-24 16:35:22 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 16:35:22 [main] INFO  c.e.W.WebsocketDemoApplication - Started WebsocketDemoApplication in 3.907 seconds (process running for 5.148)
+2024-12-24 16:36:23 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-24 16:36:23 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-24 16:36:23 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-12-24 16:36:23 [http-nio-8080-exec-1] INFO  c.e.W.handler.WebSocketHandler - Connection established: Session ID = 281a8b0c-c313-d994-e774-22831fb44036
+2024-12-24 16:36:43 [http-nio-8080-exec-2] INFO  c.e.W.handler.WebSocketHandler - Text Message received from Session ID = 281a8b0c-c313-d994-e774-22831fb44036: Payload = User requested disconnect.
+2024-12-24 16:37:03 [http-nio-8080-exec-3] INFO  c.e.W.handler.WebSocketHandler - Text Message received from Session ID = 281a8b0c-c313-d994-e774-22831fb44036: Payload =  Disconnect.
+2024-12-24 16:37:05 [http-nio-8080-exec-4] INFO  c.e.W.handler.WebSocketHandler - Connection closed: Session ID = 281a8b0c-c313-d994-e774-22831fb44036, Close Status = 1000, Reason = No specific reason provided
+2024-12-24 16:38:51 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-24 16:38:51 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-24 16:39:12 [main] INFO  c.e.W.WebsocketDemoApplication - Starting WebsocketDemoApplication using Java 19.0.1 with PID 8316 (F:\springbootApplication\WebsocketDemo\WebsocketDemo\target\classes started by lenovo in F:\springbootApplication\WebsocketDemo)
+2024-12-24 16:39:12 [main] INFO  c.e.W.WebsocketDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-24 16:39:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-24 16:39:14 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-24 16:39:14 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-24 16:39:14 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-24 16:39:14 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1731 ms
+2024-12-24 16:39:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 16:39:14 [main] INFO  c.e.W.WebsocketDemoApplication - Started WebsocketDemoApplication in 3.507 seconds (process running for 4.67)
+2024-12-24 16:39:56 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-24 16:39:56 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-24 16:39:56 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-12-24 16:39:56 [http-nio-8080-exec-1] INFO  c.e.W.handler.WebSocketHandler - Connection established: Session ID = 61cb81df-0813-9fc3-438b-59c932a90f4d
+2024-12-24 16:40:03 [http-nio-8080-exec-2] INFO  c.e.W.handler.WebSocketHandler - Text Message received from Session ID = 61cb81df-0813-9fc3-438b-59c932a90f4d: Payload = Hello websocket !!
+
+2024-12-24 16:40:06 [http-nio-8080-exec-3] INFO  c.e.W.handler.WebSocketHandler - Connection closed: Session ID = 61cb81df-0813-9fc3-438b-59c932a90f4d, Close Status = CloseStatus[code=1000, reason=null], Reason = No specific reason provided
+2024-12-24 16:42:05 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-24 16:42:05 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-24 16:42:13 [main] INFO  c.e.W.WebsocketDemoApplication - Starting WebsocketDemoApplication using Java 19.0.1 with PID 1808 (F:\springbootApplication\WebsocketDemo\WebsocketDemo\target\classes started by lenovo in F:\springbootApplication\WebsocketDemo)
+2024-12-24 16:42:13 [main] INFO  c.e.W.WebsocketDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-24 16:42:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-24 16:42:15 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-24 16:42:15 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-24 16:42:15 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-24 16:42:15 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1974 ms
+2024-12-24 16:42:16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 16:42:16 [main] INFO  c.e.W.WebsocketDemoApplication - Started WebsocketDemoApplication in 3.849 seconds (process running for 5.036)
+2024-12-24 16:42:24 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-24 16:42:24 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-24 16:42:24 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-24 16:42:24 [http-nio-8080-exec-2] INFO  c.e.W.handler.WebSocketHandler - Connection established: Session ID = df35d0c3-3317-0e41-fa93-988558802d89
+2024-12-24 16:42:27 [http-nio-8080-exec-1] INFO  c.e.W.handler.WebSocketHandler - Text Message received from Session ID = df35d0c3-3317-0e41-fa93-988558802d89: Payload = Hello websocket !!
+
+2024-12-24 16:42:30 [http-nio-8080-exec-3] INFO  c.e.W.handler.WebSocketHandler - Connection closed: Session ID = df35d0c3-3317-0e41-fa93-988558802d89, Close Status = CloseStatus[code=1000, reason=null]
+2024-12-24 16:43:00 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-24 16:43:00 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-24 17:15:45 [main] INFO  c.e.W.WebsocketDemoApplication - Starting WebsocketDemoApplication using Java 19.0.1 with PID 19028 (F:\springbootApplication\WebsocketDemo\WebsocketDemo\target\classes started by lenovo in F:\springbootApplication\WebsocketDemo)
+2024-12-24 17:15:45 [main] INFO  c.e.W.WebsocketDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-24 17:15:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-24 17:15:49 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-24 17:15:49 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-24 17:15:49 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-24 17:15:49 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3909 ms
+2024-12-24 17:15:50 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 17:15:50 [main] INFO  c.e.W.WebsocketDemoApplication - Started WebsocketDemoApplication in 6.135 seconds (process running for 8.295)
+2024-12-24 17:17:17 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-24 17:17:17 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-24 17:17:17 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-12-24 17:17:53 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-24 17:17:53 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-24 17:18:32 [restartedMain] INFO  c.e.W.WebsocketDemoApplication - Starting WebsocketDemoApplication using Java 19.0.1 with PID 12836 (F:\springbootApplication\WebsocketDemo\WebsocketDemo\target\classes started by lenovo in F:\springbootApplication\WebsocketDemo)
+2024-12-24 17:18:32 [restartedMain] INFO  c.e.W.WebsocketDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-24 17:18:32 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 17:18:32 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 17:18:34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-24 17:18:34 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-24 17:18:34 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-24 17:18:34 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-24 17:18:34 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1966 ms
+2024-12-24 17:18:35 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-24 17:18:35 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 17:18:35 [restartedMain] INFO  c.e.W.WebsocketDemoApplication - Started WebsocketDemoApplication in 3.778 seconds (process running for 5.262)
+2024-12-24 17:18:47 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-24 17:18:47 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-24 17:18:47 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-24 17:19:45 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-24 17:19:45 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-24 17:20:02 [restartedMain] INFO  c.e.W.WebsocketDemoApplication - Starting WebsocketDemoApplication using Java 19.0.1 with PID 20804 (F:\springbootApplication\WebsocketDemo\WebsocketDemo\target\classes started by lenovo in F:\springbootApplication\WebsocketDemo)
+2024-12-24 17:20:02 [restartedMain] INFO  c.e.W.WebsocketDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-24 17:20:02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 17:20:02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 17:20:04 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-24 17:20:04 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-24 17:20:04 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-24 17:20:04 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-24 17:20:04 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2310 ms
+2024-12-24 17:20:05 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-24 17:20:05 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 17:20:05 [restartedMain] INFO  c.e.W.WebsocketDemoApplication - Started WebsocketDemoApplication in 4.612 seconds (process running for 6.047)
+2024-12-24 17:20:19 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-24 17:20:19 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-24 17:20:20 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-24 17:22:55 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-24 17:22:55 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-24 17:23:15 [restartedMain] INFO  c.e.W.WebsocketDemoApplication - Starting WebsocketDemoApplication using Java 19.0.1 with PID 2488 (F:\springbootApplication\WebsocketDemo\WebsocketDemo\target\classes started by lenovo in F:\springbootApplication\WebsocketDemo)
+2024-12-24 17:23:15 [restartedMain] INFO  c.e.W.WebsocketDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-24 17:23:15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 17:23:15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 17:23:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-24 17:23:17 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-24 17:23:17 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-24 17:23:17 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-24 17:23:17 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1908 ms
+2024-12-24 17:23:18 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-24 17:23:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 17:23:18 [restartedMain] INFO  c.e.W.WebsocketDemoApplication - Started WebsocketDemoApplication in 3.781 seconds (process running for 5.045)
+2024-12-24 17:23:26 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-24 17:23:26 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-24 17:23:26 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-24 17:23:26 [http-nio-8080-exec-1] INFO  c.e.W.handler.WebSocketHandler - Connection established: Session ID = f7ad6077-6932-cf70-8fb7-2c70806f68c3
+2024-12-24 17:23:26 [http-nio-8080-exec-2] INFO  c.e.W.handler.WebSocketHandler - Text Message received from Session ID = f7ad6077-6932-cf70-8fb7-2c70806f68c3: Payload = Hello websocket !!
+
+2024-12-24 17:23:45 [http-nio-8080-exec-3] INFO  c.e.W.handler.WebSocketHandler - Text Message received from Session ID = f7ad6077-6932-cf70-8fb7-2c70806f68c3: Payload = Hello websocket !!
+
+2024-12-24 17:23:54 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-24 17:23:54 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-24 17:23:54 [SpringApplicationShutdownHook] INFO  c.e.W.handler.WebSocketHandler - Connection closed: Session ID = f7ad6077-6932-cf70-8fb7-2c70806f68c3, Close Status = CloseStatus[code=1001, reason=The web application is stopping], Reason = The web application is stopping
+2024-12-24 17:24:28 [restartedMain] INFO  c.e.W.WebsocketDemoApplication - Starting WebsocketDemoApplication using Java 19.0.1 with PID 2972 (F:\springbootApplication\WebsocketDemo\WebsocketDemo\target\classes started by lenovo in F:\springbootApplication\WebsocketDemo)
+2024-12-24 17:24:28 [restartedMain] INFO  c.e.W.WebsocketDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-24 17:24:28 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 17:24:28 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 17:24:29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-24 17:24:29 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-24 17:24:29 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-24 17:24:29 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-24 17:24:29 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1692 ms
+2024-12-24 17:24:30 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-24 17:24:30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 17:24:30 [restartedMain] INFO  c.e.W.WebsocketDemoApplication - Started WebsocketDemoApplication in 3.561 seconds (process running for 4.904)
+2024-12-24 17:24:39 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-24 17:24:39 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-24 17:24:39 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-12-24 17:24:39 [http-nio-8080-exec-1] INFO  c.e.W.handler.WebSocketHandler - Connection established: Session ID = 89b7aec1-67f2-9993-3c1e-899b66971e2b
+2024-12-24 17:24:43 [http-nio-8080-exec-2] INFO  c.e.W.handler.WebSocketHandler - Text Message received from Session ID = 89b7aec1-67f2-9993-3c1e-899b66971e2b: Payload = Hello websocket !!
+
+2024-12-24 17:24:49 [http-nio-8080-exec-3] INFO  c.e.W.handler.WebSocketHandler - Connection closed: Session ID = 89b7aec1-67f2-9993-3c1e-899b66971e2b, Close Status = CloseStatus[code=1000, reason=null], Reason = No specific reason provided
+2024-12-24 17:29:11 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-24 17:29:11 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-24 17:34:54 [restartedMain] INFO  c.e.W.WebsocketDemoApplication - Starting WebsocketDemoApplication using Java 19.0.1 with PID 20476 (F:\springbootApplication\WebsocketDemo\WebsocketDemo\target\classes started by lenovo in F:\springbootApplication\WebsocketDemo)
+2024-12-24 17:34:54 [restartedMain] INFO  c.e.W.WebsocketDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-24 17:34:54 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 17:34:54 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 17:34:56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-24 17:34:56 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-24 17:34:56 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-24 17:34:56 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-24 17:34:56 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2357 ms
+2024-12-24 17:34:57 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-24 17:34:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 17:34:57 [restartedMain] INFO  c.e.W.WebsocketDemoApplication - Started WebsocketDemoApplication in 4.346 seconds (process running for 5.976)
+2024-12-24 17:35:19 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-24 17:35:19 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-24 17:35:19 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-12-24 17:35:19 [http-nio-8080-exec-2] INFO  c.e.W.handler.WebSocketHandler - Connection established: Session ID = 82e92952-ecb6-950f-cb8e-bcada18625d7
+2024-12-24 17:41:08 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-24 17:41:08 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-24 17:41:08 [SpringApplicationShutdownHook] INFO  c.e.W.handler.WebSocketHandler - Connection closed: Session ID = 82e92952-ecb6-950f-cb8e-bcada18625d7, Close Status = CloseStatus[code=1001, reason=The web application is stopping], Reason = The web application is stopping
